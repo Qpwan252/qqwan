@@ -1,3 +1,4 @@
+members=[ "wordle_io"]
 [package]
 name = "wordle"
 version.workspace = true
