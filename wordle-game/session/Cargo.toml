@@ -1,3 +1,4 @@
+members=["session_io", "wordle_io"]
 [package]
 name = "session"
 version.workspace = true
