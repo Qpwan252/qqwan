@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -24,5 +25,6 @@ jobs:
 
       - name: Check and test
         run: |
+          cd wordle-game
           cargo clippy --all-targets -- -D warnings -A unused-imports
           cargo t
